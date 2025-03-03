@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.androidcrypto.bleclientblessedoriginal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission
+11-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:10:5-12:38
+12        android:name="android.permission.BLUETOOTH"
+12-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:11:9-52
+13        android:maxSdkVersion="30" />
+13-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:12:9-35
+14    <uses-permission
+14-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:13:5-15:38
+15        android:name="android.permission.BLUETOOTH_ADMIN"
+15-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:14:9-58
+16        android:maxSdkVersion="30" />
+16-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:15:9-35
+17    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+17-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:16:5-76
+17-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:16:22-73
+18    <uses-permission
+18-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:17:5-20:31
+19        android:name="android.permission.BLUETOOTH_SCAN"
+19-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:18:9-57
+20        android:usesPermissionFlags="neverForLocation" />
+20-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:19:9-55
+21    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+21-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:21:5-78
+21-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:21:22-75
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:22:5-79
+22-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:22:22-76
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:23:5-81
+23-->[com.github.weliem:blessed-android:2.3.4] C:\Users\yassi\.gradle\caches\transforms-3\17d18182aea61b577b5aa6e112364f22\transformed\blessed-android-2.3.4\AndroidManifest.xml:23:22-78
+24
+25    <application
+25-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:5:5-28:19
+26        android:allowBackup="true"
+26-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:6:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.8.0] C:\Users\yassi\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:7:9-65
+29        android:debuggable="true"
+30        android:fullBackupContent="@xml/backup_rules"
+30-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:8:9-54
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:9:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:10:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:11:9-54
+34        android:supportsRtl="true"
+34-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:12:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.BleClientBlessedOriginal" >
+36-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:13:9-62
+37        <activity
+37-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:15:9-27:20
+38            android:name="de.androidcrypto.bleclientblessedoriginal.MainActivity"
+38-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:16:13-41
+39            android:exported="true" >
+39-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:17:13-36
+40            <intent-filter>
+40-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:18:13-22:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:19:17-69
+41-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:19:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:21:17-77
+43-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:21:27-74
+44            </intent-filter>
+45
+46            <meta-data
+46-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:24:13-26:36
+47                android:name="android.app.lib_name"
+47-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:25:17-52
+48                android:value="" />
+48-->C:\Users\yassi\Desktop\APP4\Projet_Cop\BleClientBlessedOriginal-master\app\src\main\AndroidManifest.xml:26:17-33
+49        </activity>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yassi\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yassi\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="de.androidcrypto.bleclientblessedoriginal.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yassi\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yassi\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yassi\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yassi\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yassi\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yassi\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yassi\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yassi\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>
