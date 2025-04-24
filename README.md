@@ -3,7 +3,7 @@ Application Android pour la Borne de Recharge de Véhicules Électriques
 
 Description du Projet
 
-Ce projet consiste en le développement d'une application Android pour le contrôle à distance d'une borne de recharge pour véhicules électriques. L'application permet aux utilisateurs de gérer et de surveiller le processus de recharge via une connexion Bluetooth. Elle fait partie d'un système plus large comprenant une carte électronique et un boîtier physique pour la borne de recharge.
+L'objctif de ce projet est de développer une application Android pour le contrôle à distance d'une borne de recharge pour véhicules électriques. L'application permet aux utilisateurs de gérer et de surveiller le processus de recharge via une connexion Bluetooth. Elle fait partie d'un système plus large comprenant une carte électronique et un boîtier physique pour la borne de recharge.
 
 Fonctionnalités Principales
 Connexion Bluetooth : Établir une connexion sans fil avec la borne de recharge.
